@@ -1,5 +1,5 @@
 # requirements.txt
-streamlit
-snowflake-snowpark-python
-snowflake-connector-python
-pandas
+streamlit==1.31.1
+snowflake-connector-python==3.7.1
+snowflake-snowpark-python==1.13.0
+pandas>=1.5
