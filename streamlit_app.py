@@ -41,6 +41,6 @@ if ingredients_list:
         st.success('Your Smoothie is ordered!', icon="✅")
 
 import requests  
-smoothiefroot_response = requests.get("https://sturdy-bassoon-pqq5vvw7g6r27r96-8501.app.github.dev/api/fruit/watermelon")  
+smoothiefroot_response = requests.get("https://sturdy-bassoon-pqq5vvw7g6r27r96-8501.app.github.dev/")  
 st.text(smoothiefroot_response)
 
